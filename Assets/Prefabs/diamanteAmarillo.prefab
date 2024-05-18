@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 4392388190490743284}
   - component: {fileID: 5463476579443384417}
   - component: {fileID: 1126680051362592888}
+  - component: {fileID: 975246901941884946}
   m_Layer: 0
   m_Name: diamanteAmarillo
-  m_TagString: Untagged
+  m_TagString: diamanteAmarillo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,8 +93,20 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4660441870618062859}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &975246901941884946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4660441870618062859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b1859a4b74290a439c3c3429ce255b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
